@@ -9,11 +9,13 @@ import (
 
 	protohackers "github.com/grahamedgecombe/protohackers/lib"
 	"github.com/grahamedgecombe/protohackers/lib/problem0"
+	"github.com/grahamedgecombe/protohackers/lib/problem1"
 	"go.uber.org/zap"
 )
 
 var solvers = []protohackers.SolveFunc{
 	problem0.Solve,
+	problem1.Solve,
 }
 
 func main() {
